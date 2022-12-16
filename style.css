@@ -193,21 +193,23 @@ select{
 .botonCita{
   height: 37px;
   border-radius: 5px;
-  background-color: #2596be;
+  background-color: #5c3a14;
   color: white;
   font-weight: bolder;
   cursor: pointer;
   border: none;
   width: 94%;
+
+
 }
 
 /* ----------------------------- FieldSet ------------------------------------ */
 
 
 fieldset{
-  background-color: rgb(251,250,250,50%);
-  border-radius: 5px;
-  border: none;
+  background-color: rgb(250, 250, 250, 50%);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   display: grid;
   margin: 0;
   padding: 0;
@@ -338,7 +340,7 @@ li, ol{
 
 .menuDiv.desplegado{
   float: right; 
-  background-color: #635858  ;
+  background-color: rgba(19, 68, 28, 0.815)  ;
   position: relative;
   width: 100vw;
   height: 300px;
@@ -691,9 +693,9 @@ input, textarea{
 
 /* movil */
 footer{
-  background-color: #635858;
-  color: white;
-  width: 100%;
+  background-color: rgb(7, 17, 9);
+    color: white;
+    width: 100%;
   
 }
 
@@ -792,11 +794,11 @@ a:hover { color: white;  text-decoration: none; }
   
   /*-----------------------------RESERVATION-----------------------------*/
   fieldset{
-    background-color: rgb(251,250,250,50%);
+    background-color: rgb(250, 250, 250, 50%);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     width: 100%;
     margin: auto;
-    border-radius: 5px;
-    border: none;
   }
 
   .esconder{
@@ -908,8 +910,9 @@ a:hover { color: white;  text-decoration: none; }
   /*FOOTER*/
 
   footer{
-    background-color: #635858;
+    background-color: rgb(7, 17, 9);
     color: white;
+    width: 100%;
     
   }
 
@@ -1074,7 +1077,7 @@ a:hover { color: white;  text-decoration: none; }
 
   .menuDiv.desplegado{
     float: right; 
-    background-color: #635858  ;
+    background-color: rgba(19, 68, 28, 0.815) ;
     position: relative;
     width: 100vw;
     height: 300px;
@@ -1188,11 +1191,12 @@ a:hover { color: white;  text-decoration: none; }
 
   /*-----------------------------RESERVATION-----------------------------*/
   fieldset{
-    background-color: rgb(251,250,250,50%);
+    
     width: 30%;
     margin: auto;
+    background-color: rgb(250, 250, 250, 50%);
     border-radius: 5px;
-    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
 
   .inputTexto, .inputNumber, .inputFecha, .inputEmail{
